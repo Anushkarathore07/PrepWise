@@ -65,7 +65,7 @@ async function Home() {
             {dummyInterviews.map((interview) => (
               <InterviewCard {... interview}/>
             ))}
-            <p>You haven&apos;t taken any interviews yet</p>
+            
           {/* )} */}
         </div>
       </section>
@@ -90,7 +90,7 @@ async function Home() {
             {dummyInterviews.map((interview) => (
               <InterviewCard {... interview}/>
             ))}
-            <p>There are no interviews available</p>
+            
           {/* )} */}
         </div>
       </section>
